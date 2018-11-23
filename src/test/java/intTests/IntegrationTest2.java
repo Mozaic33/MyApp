@@ -15,7 +15,7 @@ public class IntegrationTest2 {
 
     public void TestTitle1() {
 
-        File src = new File("C:/Users/dneacsu/Desktop/phantomjs-2.1.1-windows/bin/phantomjs.exe");
+        File src = new File("/usr/local/bin/phantomjs");
         System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
         WebDriver driver = new PhantomJSDriver();
         driver.get("http://192.168.39.32:8080/AMGrads");
