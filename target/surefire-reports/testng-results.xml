@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="4787" started-at="2018-11-21T09:51:34Z" finished-at="2018-11-21T09:51:38Z">
+  <suite name="Surefire suite" duration-ms="4812" started-at="2018-11-23T14:42:53Z" finished-at="2018-11-23T14:42:57Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="4787" started-at="2018-11-21T09:51:34Z" finished-at="2018-11-21T09:51:38Z">
-      <class name="intTests.IntegrationTest">
-        <test-method status="PASS" signature="TestTitle1()[pri:0, instance:TestTitle1(intTests.IntegrationTest)]" name="TestTitle1" duration-ms="4737" started-at="2018-11-21T11:51:34Z" finished-at="2018-11-21T11:51:38Z">
+    <test name="Surefire test" duration-ms="4812" started-at="2018-11-23T14:42:53Z" finished-at="2018-11-23T14:42:57Z">
+      <class name="intTests.IntegrationTest2">
+        <test-method status="PASS" signature="TestTitle1()[pri:0, instance:TestTitle1(intTests.IntegrationTest2)]" name="TestTitle1" duration-ms="4764" started-at="2018-11-23T16:42:53Z" finished-at="2018-11-23T16:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestTitle1 -->
-      </class> <!-- intTests.IntegrationTest -->
+      </class> <!-- intTests.IntegrationTest2 -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

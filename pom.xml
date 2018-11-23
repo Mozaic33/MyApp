@@ -20,6 +20,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.12-beta-1</junit.version>
         <ghostdriver.version>1.1.0</ghostdriver.version>
+        <runSuite>**/*IntegrationTest.class</runSuite>
     </properties>
 
     <dependencies>
@@ -296,21 +297,11 @@
                             <exclude>none</exclude>
                         </excludes>
                         <includes>
-                            <include>**/*IntegrationTest.java</include>
+                            <include>${runSuite}</include>
                         </includes>
                     </configuration>
                 </execution>
             </executions>
-        </plugin>
-		<plugin>
-    <groupId>org.apache.tomcat.maven</groupId>
-    <artifactId>tomcat7-maven-plugin</artifactId>
-    <version>2.2</version>
-    <configuration>
-        <url>http://localhost:8080</url>
-        <server>TomcatServer</server>
-        <path>/myapp</path>
-    </configuration>
         </plugin>
     </plugins>
     </build>
