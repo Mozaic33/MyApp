@@ -1,0 +1,5 @@
+target/*
+phantomjsdriver.log
+myAPP.iml
+.idea/*
+settings.xml
